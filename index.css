@@ -59,14 +59,13 @@ main section:nth-child(1) div {
   color: white;
   background: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%);
 }
-
 main section:nth-child(1) div span {
   font-weight: 600;
 }
 /* Recent Posts */
 .recent-posts {
   width: 100%;
-  margin: 2rem 0;
+  margin-top: 2rem;
 
   display: flex;
   flex-direction: column;
@@ -81,8 +80,7 @@ main section:nth-child(1) div span {
 
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 40rem;
+  justify-content: space-around;
 
   color: white;
   background: #02a28f;
